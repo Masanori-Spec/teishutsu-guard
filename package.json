@@ -1,0 +1,14 @@
+{
+  "name": "teishutsu-guard",
+  "version": "1.0.0",
+  "private": true,
+  "description": "文章の「上手さ」ではなく、提出先の条件との一致を確認する、日本語向けのローカルWebアプリです。原稿は端末内で処理し、文章を含まない条件セットを別ファイルで共有できます。",
+  "scripts": {
+    "test": "node --test tests/core.test.cjs",
+    "check": "node --check common.js && node --check core.js && node --check app.js"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "license": "MIT"
+}

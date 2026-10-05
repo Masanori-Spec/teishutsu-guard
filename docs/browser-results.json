@@ -1,0 +1,102 @@
+[
+  {
+    "app": "teishutsu-guard",
+    "test": "empty state is not falsely passed",
+    "pass": true
+  },
+  {
+    "app": "teishutsu-guard",
+    "test": "sample failures are exposed",
+    "pass": true
+  },
+  {
+    "app": "teishutsu-guard",
+    "test": "rule export omits manuscript and file name",
+    "pass": true
+  },
+  {
+    "app": "teishutsu-guard",
+    "test": "editing file name invalidates manual verification",
+    "pass": true
+  },
+  {
+    "app": "teishutsu-guard",
+    "test": "fixing conditions changes result to pass",
+    "pass": true
+  },
+  {
+    "app": "teishutsu-guard",
+    "test": "selection activates range count",
+    "pass": true
+  },
+  {
+    "app": "teishutsu-guard",
+    "test": "editing clears stale selection",
+    "pass": true
+  },
+  {
+    "app": "teishutsu-guard",
+    "test": "Unicode family is one grapheme",
+    "pass": true
+  },
+  {
+    "app": "teishutsu-guard",
+    "test": "report omits full draft",
+    "pass": true
+  },
+  {
+    "app": "teishutsu-guard",
+    "test": "rule import preserves draft",
+    "pass": true
+  },
+  {
+    "app": "teishutsu-guard",
+    "test": "rule import actually replaces rules",
+    "pass": true
+  },
+  {
+    "app": "teishutsu-guard",
+    "test": "invalid import preserves state",
+    "pass": true
+  },
+  {
+    "app": "teishutsu-guard",
+    "test": "opt-in persistence serializes current draft",
+    "pass": true
+  },
+  {
+    "app": "teishutsu-guard",
+    "test": "new instance restores from saved storage fixture",
+    "pass": true
+  },
+  {
+    "app": "teishutsu-guard",
+    "test": "other-tab change stops autosave",
+    "pass": true
+  },
+  {
+    "app": "teishutsu-guard",
+    "test": "quota failure disables autosave with notice",
+    "pass": true
+  },
+  {
+    "app": "teishutsu-guard",
+    "test": "TXT import normalizes line endings",
+    "pass": true
+  },
+  {
+    "app": "teishutsu-guard",
+    "test": "nontext file only supplies filename",
+    "pass": true
+  },
+  {
+    "app": "teishutsu-guard",
+    "test": "user phrases render as text, not HTML",
+    "pass": true
+  },
+  {
+    "app": "teishutsu-guard",
+    "test": "no JavaScript errors",
+    "pass": true
+  }
+]

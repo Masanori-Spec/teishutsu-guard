@@ -1,0 +1,110 @@
+{
+  "mode": "local",
+  "browser": "Edg/154.0.4258.53",
+  "checkedAt": "2026-10-05T10:13:18.746Z",
+  "tests": [
+    {
+      "app": "teishutsu-guard",
+      "test": "page served at actual local origin",
+      "pass": true
+    },
+    {
+      "app": "teishutsu-guard",
+      "test": "initial autosave is opt-in",
+      "pass": true
+    },
+    {
+      "app": "teishutsu-guard",
+      "test": "sample executes at actual origin",
+      "pass": true
+    },
+    {
+      "app": "teishutsu-guard",
+      "test": "no horizontal page overflow at 1440",
+      "pass": true,
+      "detail": {
+        "viewport": 1440,
+        "scroll": 1425
+      }
+    },
+    {
+      "app": "teishutsu-guard",
+      "test": "no horizontal page overflow at 768",
+      "pass": true,
+      "detail": {
+        "viewport": 768,
+        "scroll": 753
+      }
+    },
+    {
+      "app": "teishutsu-guard",
+      "test": "no horizontal page overflow at 375",
+      "pass": true,
+      "detail": {
+        "viewport": 375,
+        "scroll": 375
+      }
+    },
+    {
+      "app": "teishutsu-guard",
+      "test": "no horizontal page overflow at 320",
+      "pass": true,
+      "detail": {
+        "viewport": 320,
+        "scroll": 320
+      }
+    },
+    {
+      "app": "teishutsu-guard",
+      "test": "real browser download completes",
+      "pass": true,
+      "detail": [
+        "提出ガード_条件.json"
+      ]
+    },
+    {
+      "app": "teishutsu-guard",
+      "test": "download contains expected format",
+      "pass": true
+    },
+    {
+      "app": "teishutsu-guard",
+      "test": "corrected sample passes validation",
+      "pass": true
+    },
+    {
+      "app": "teishutsu-guard",
+      "test": "real localStorage saves only after opt-in",
+      "pass": true
+    },
+    {
+      "app": "teishutsu-guard",
+      "test": "real reload restores persisted sample",
+      "pass": true
+    },
+    {
+      "app": "teishutsu-guard",
+      "test": "no JavaScript exceptions",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "app": "teishutsu-guard",
+      "test": "no content-security violations",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "app": "teishutsu-guard",
+      "test": "all application resources load",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "app": "teishutsu-guard",
+      "test": "no application requests to external services",
+      "pass": true,
+      "detail": []
+    }
+  ]
+}
